@@ -1,4 +1,29 @@
 ﻿(function () {
+  function escapeHtml(text) {
+    return String(text || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/\"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function escapeRegex(text) {
+    return String(text || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function boldNameInText(text, name) {
+    var safeText = escapeHtml(text || "");
+    var target = (name || "Jiaxing Li").trim();
+    if (!target) {
+      return safeText;
+    }
+    var pattern = new RegExp(escapeRegex(target), "gi");
+    return safeText.replace(pattern, function (matched) {
+      return "<strong>" + matched + "</strong>";
+    });
+  }
+
   function toTitleCase(value) {
     return (value || "").toLowerCase().replace(/\b\w/g, function (m) {
       return m.toUpperCase();
@@ -47,6 +72,7 @@
     })
     .then(function (data) {
       var profile = data.profile || {};
+      var targetName = profile.name || "Jiaxing Li";
       var photoSrc = profile.photo_src || (profile.photo && profile.photo.src) || "assets/profile-photo.svg";
       var photoAlt = profile.photo_alt || (profile.photo && profile.photo.alt) || "Profile photo";
 
@@ -78,35 +104,35 @@
         if (paper.title) {
           var title = document.createElement("p");
           title.className = "paper-title";
-          title.textContent = paper.title;
+          title.innerHTML = boldNameInText(paper.title, targetName);
           li.appendChild(title);
         }
 
         if (paper.authors) {
           var authors = document.createElement("p");
           authors.className = "paper-authors";
-          authors.textContent = paper.authors;
+          authors.innerHTML = boldNameInText(paper.authors, targetName);
           li.appendChild(authors);
         }
 
         if (paper.venue || paper.year) {
           var venue = document.createElement("p");
           venue.className = "paper-venue";
-          venue.textContent = [paper.venue, paper.year].filter(Boolean).join(", ") + ".";
+          venue.innerHTML = boldNameInText([paper.venue, paper.year].filter(Boolean).join(", ") + ".", targetName);
           li.appendChild(venue);
         }
 
         if (paper.citation && !paper.title) {
           var citation = document.createElement("p");
           citation.className = "paper-citation";
-          citation.textContent = paper.citation;
+          citation.innerHTML = boldNameInText(paper.citation, targetName);
           li.appendChild(citation);
         }
 
         if (paper.note) {
           var note = document.createElement("p");
           note.className = "paper-note";
-          note.textContent = paper.note;
+          note.innerHTML = boldNameInText(paper.note, targetName);
           li.appendChild(note);
         }
 
