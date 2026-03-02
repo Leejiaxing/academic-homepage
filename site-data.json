@@ -8,7 +8,7 @@
   "hero": {
     "greeting": "Hello, I'm",
     "display_name": "Jiaxing Li.",
-    "subtitle": "PhD Candidate in Computer Science at Tsinghua University.",
+    "subtitle": "PhD Candidate in Computer Science at Southeast University.",
     "description": "Building intelligent systems for graph representation learning, uncertainty modeling, and robust generalization under distribution shift.",
     "cta_text": "Learn more about me ↓",
     "cta_target": "#publications"
@@ -21,7 +21,7 @@
     {
       "year": "2025",
       "title": "Embedding Uncertainty Modeling for Cold-Start Item Recommendation",
-      "authors": "Jiaxing Li, Yifeng Kong",
+      "authors": "Jiaxing Li, Youyong Kong",
       "venue": "Neurocomputing 2025",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/eum-cold-start" },
@@ -32,7 +32,7 @@
     {
       "year": "2025",
       "title": "Let Invariant Learning Inspire Neighbor-shift Generalization on Graphs",
-      "authors": "Jiaxing Li, Jian Gao, Bin Gu, Ming Zhao",
+      "authors": "Jiaxing Li, Jiayi Gao, Binhao Gu, Youyong Kong",
       "venue": "IEEE Transactions on Artificial Intelligence 2025",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/invariant-neighbor-shift" },
@@ -42,8 +42,8 @@
     {
       "year": "2025",
       "title": "Suit the Node Pair to the Case: A Multi-Scale Node Pair Grouping Strategy for Graph-MLP Distillation",
-      "authors": "Rui Dong, Jiaxing Li, Wei Zheng, Kai Zhang",
-      "venue": "IJCAI 2025",
+      "authors": "Rui Dong, Jiaxing Li, Weihuang Zheng, Youyong Kong",
+      "venue": "IJCAI",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/node-pair-grouping" },
         { "label": "Code", "url": "https://github.com/demo/node-pair-grouping" }
@@ -62,7 +62,7 @@
     {
       "year": "2025",
       "title": "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph",
-      "authors": "Wei Zheng, Jing Liu, Jiaxing Li, Haoran Xu",
+      "authors": "Weihuang Zheng, Jiashuo Liu, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong",
       "venue": "ICML 2025",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/tadr" },
@@ -72,7 +72,7 @@
     {
       "year": "2025",
       "title": "HePa: Heterogeneous Graph Prompting for All-Level Classification Tasks",
-      "authors": "Jinghong Jiang, Lingyu Song, Jiaxing Li, Wen Liu",
+      "authors": "Jinghong Jia, Lei Song, Jiaxing Li, Youyong Kong",
       "venue": "AAAI 2025",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/hepa" },
@@ -82,7 +82,7 @@
     {
       "year": "2023",
       "title": "Multi-scale Self-Attention Mixup for Graph Classification",
-      "authors": "Yifeng Kong, Jiaxing Li, Kai Zhang, Xuan Pu",
+      "authors": "Youyong Kong, Jiaxing Li, Ke Zhang, Jiasong Wu",
       "venue": "Pattern Recognition Letters 2023",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/msam" },
@@ -92,7 +92,7 @@
     {
       "year": "2023",
       "title": "Topology Uncertainty Modeling for Imbalanced Node Classification on Graphs",
-      "authors": "Jian Gao, Jiaxing Li, Kai Zhang, Bin Gu",
+      "authors": "Jiayi Gao, Jiaxing Li, Ke Zhang, Youyong Kong",
       "venue": "ICASSP 2023",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/topology-uncertainty" },
@@ -102,7 +102,7 @@
     {
       "year": "2023",
       "title": "Topgformer: Topological-based Graph Transformer for Mapping Brain Structural Connectivity to Functional Connectivity",
-      "authors": "Dongdong Guo, Kai Zhang, Jiaxing Li, Yifeng Kong",
+      "authors": "Dalu Guo, Ke Zhang, Jiaxing Li, Youyong Kong",
       "venue": "ICASSP 2023",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/topgformer" },
@@ -112,7 +112,7 @@
     {
       "year": "2022",
       "title": "Graph Attention Mixup Transformer for Graph Classification",
-      "authors": "Jiaxing Li, Kai Zhang, Xuan Pu, Rui Dong",
+      "authors": "Jiaxing Li, Ke Zhang, Xuan Pu, Rui Dong",
       "venue": "ICONIP 2022",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/gamt" },
