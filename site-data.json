@@ -22,7 +22,7 @@
       "year": "2025",
       "title": "Embedding Uncertainty Modeling for Cold-Start Item Recommendation",
       "authors": "Jiaxing Li, Youyong Kong",
-      "venue": "Neurocomputing 2025",
+      "venue": "Neurocomputing",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/eum-cold-start" },
         { "label": "Code", "url": "https://github.com/demo/eum-cold-start" },
@@ -53,7 +53,7 @@
       "year": "2025",
       "title": "Exploring Rationale Learning for Continual Graph Learning",
       "authors": "Lingyu Song, Jiaxing Li, Qian Si, Kun Zhang",
-      "venue": "AAAI 2025",
+      "venue": "AAAI",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/rationale-cgl" },
         { "label": "Code", "url": "https://github.com/demo/rationale-cgl" }
@@ -63,7 +63,7 @@
       "year": "2025",
       "title": "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph",
       "authors": "Weihuang Zheng, Jiashuo Liu, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong",
-      "venue": "ICML 2025",
+      "venue": "ICML",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/tadr" },
         { "label": "Code", "url": "https://github.com/demo/tadr" }
@@ -73,7 +73,7 @@
       "year": "2025",
       "title": "HePa: Heterogeneous Graph Prompting for All-Level Classification Tasks",
       "authors": "Jinghong Jia, Lei Song, Jiaxing Li, Youyong Kong",
-      "venue": "AAAI 2025",
+      "venue": "AAAI",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/hepa" },
         { "label": "Code", "url": "https://github.com/demo/hepa" }
@@ -113,7 +113,7 @@
       "year": "2022",
       "title": "Graph Attention Mixup Transformer for Graph Classification",
       "authors": "Jiaxing Li, Ke Zhang, Xuan Pu, Rui Dong",
-      "venue": "ICONIP 2022",
+      "venue": "ICONIP",
       "links": [
         { "label": "Paper", "url": "https://example.org/papers/gamt" },
         { "label": "Code", "url": "https://github.com/demo/gamt" }
