@@ -1,0 +1,231 @@
+﻿:root {
+  --bg: #f5f5f2;
+  --surface: #ffffff;
+  --text: #202020;
+  --muted: #666666;
+  --line: #e4e2dd;
+  --accent: #1f4e5f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top right, #ecebe7 0%, var(--bg) 45%, #f8f8f6 100%);
+  line-height: 1.65;
+}
+
+.hero {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.hero-inner,
+main,
+footer {
+  width: min(900px, 92vw);
+  margin: 0 auto;
+}
+
+.hero-inner {
+  padding: 3.8rem 0 2.8rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 210px;
+  gap: 2rem;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: "Source Serif 4", Georgia, serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 4vw, 3.1rem);
+  letter-spacing: 0.02em;
+}
+
+.role {
+  margin: 0.4rem 0 1rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.intro {
+  max-width: 65ch;
+  color: #3a3a3a;
+}
+
+.hero-photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #f0efeb;
+}
+
+nav {
+  margin-top: 1.4rem;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+  border: 1px solid #d8d8d3;
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+}
+
+nav a:hover {
+  background: #f4f6f8;
+}
+
+main {
+  padding: 2.3rem 0;
+}
+
+.section {
+  padding: 1.1rem 0 1.8rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+ul,
+ol {
+  margin: 0.2rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.publications-list {
+  margin: 0.35rem 0 0;
+  padding-left: 1.45rem;
+}
+
+.paper-item {
+  margin-bottom: 0.95rem;
+}
+
+.paper-title {
+  margin: 0;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.48rem;
+  line-height: 1.32;
+  font-weight: 700;
+  color: #13233b;
+}
+
+.paper-authors {
+  margin: 0.15rem 0 0;
+  font-size: 1.05rem;
+  color: #2d3d55;
+}
+
+.paper-venue,
+.paper-note {
+  margin: 0.05rem 0 0;
+  font-size: 1.03rem;
+  color: #394e69;
+  font-style: italic;
+}
+
+.paper-citation {
+  margin: 0;
+}
+
+.paper-links {
+  margin-top: 0.35rem;
+}
+
+.paper-links a {
+  margin-right: 0.38rem;
+  font-size: 0.93rem;
+}
+
+.paper-tag {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.08rem 0.42rem;
+  border-radius: 1px;
+  line-height: 1.2;
+}
+
+.paper-tag-paper {
+  background: #2b79bf;
+}
+
+.paper-tag-data {
+  background: #e4837f;
+}
+
+.paper-tag-website {
+  background: #76a88f;
+}
+
+.paper-tag-code {
+  background: #c58b73;
+}
+
+.paper-tag:hover {
+  opacity: 0.9;
+}
+
+.muted {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li {
+  margin: 0.35rem 0;
+}
+
+footer {
+  padding: 1.2rem 0 2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 760px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-photo-wrap {
+    justify-content: flex-start;
+  }
+}

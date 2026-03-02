@@ -1,0 +1,130 @@
+﻿{
+  "profile": {
+    "name": "Jiaxing Li",
+    "role": "PhD Candidate",
+    "photo_src": "assets/ljx.jpg",
+    "photo_alt": "Jiaxing Li portrait"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "display_name": "Jiaxing Li.",
+    "subtitle": "PhD Candidate in Computer Science at Tsinghua University.",
+    "description": "Building intelligent systems for graph representation learning, uncertainty modeling, and robust generalization under distribution shift.",
+    "cta_text": "Learn more about me ↓",
+    "cta_target": "#publications"
+  },
+  "publications_meta": {
+    "title": "Publications",
+    "subtitle": "Selected works from 2022-2025."
+  },
+  "publications": [
+    {
+      "year": "2025",
+      "title": "Embedding Uncertainty Modeling for Cold-Start Item Recommendation",
+      "authors": "Jiaxing Li, Yifeng Kong",
+      "venue": "Neurocomputing 2025",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/eum-cold-start" },
+        { "label": "Code", "url": "https://github.com/demo/eum-cold-start" },
+        { "label": "DOI", "url": "https://doi.org/10.1016/j.neucom.2025.132144" }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Let Invariant Learning Inspire Neighbor-shift Generalization on Graphs",
+      "authors": "Jiaxing Li, Jian Gao, Bin Gu, Ming Zhao",
+      "venue": "IEEE Transactions on Artificial Intelligence 2025",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/invariant-neighbor-shift" },
+        { "label": "Code", "url": "https://github.com/demo/invariant-neighbor-shift" }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Suit the Node Pair to the Case: A Multi-Scale Node Pair Grouping Strategy for Graph-MLP Distillation",
+      "authors": "Rui Dong, Jiaxing Li, Wei Zheng, Kai Zhang",
+      "venue": "IJCAI 2025",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/node-pair-grouping" },
+        { "label": "Code", "url": "https://github.com/demo/node-pair-grouping" }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Exploring Rationale Learning for Continual Graph Learning",
+      "authors": "Lingyu Song, Jiaxing Li, Qian Si, Kun Zhang",
+      "venue": "AAAI 2025",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/rationale-cgl" },
+        { "label": "Code", "url": "https://github.com/demo/rationale-cgl" }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph",
+      "authors": "Wei Zheng, Jing Liu, Jiaxing Li, Haoran Xu",
+      "venue": "ICML 2025",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/tadr" },
+        { "label": "Code", "url": "https://github.com/demo/tadr" }
+      ]
+    },
+    {
+      "year": "2025",
+      "title": "HePa: Heterogeneous Graph Prompting for All-Level Classification Tasks",
+      "authors": "Jinghong Jiang, Lingyu Song, Jiaxing Li, Wen Liu",
+      "venue": "AAAI 2025",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/hepa" },
+        { "label": "Code", "url": "https://github.com/demo/hepa" }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Multi-scale Self-Attention Mixup for Graph Classification",
+      "authors": "Yifeng Kong, Jiaxing Li, Kai Zhang, Xuan Pu",
+      "venue": "Pattern Recognition Letters 2023",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/msam" },
+        { "label": "Code", "url": "https://github.com/demo/msam" }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Topology Uncertainty Modeling for Imbalanced Node Classification on Graphs",
+      "authors": "Jian Gao, Jiaxing Li, Kai Zhang, Bin Gu",
+      "venue": "ICASSP 2023",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/topology-uncertainty" },
+        { "label": "Code", "url": "https://github.com/demo/topology-uncertainty" }
+      ]
+    },
+    {
+      "year": "2023",
+      "title": "Topgformer: Topological-based Graph Transformer for Mapping Brain Structural Connectivity to Functional Connectivity",
+      "authors": "Dongdong Guo, Kai Zhang, Jiaxing Li, Yifeng Kong",
+      "venue": "ICASSP 2023",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/topgformer" },
+        { "label": "Code", "url": "https://github.com/demo/topgformer" }
+      ]
+    },
+    {
+      "year": "2022",
+      "title": "Graph Attention Mixup Transformer for Graph Classification",
+      "authors": "Jiaxing Li, Kai Zhang, Xuan Pu, Rui Dong",
+      "venue": "ICONIP 2022",
+      "links": [
+        { "label": "Paper", "url": "https://example.org/papers/gamt" },
+        { "label": "Code", "url": "https://github.com/demo/gamt" }
+      ]
+    }
+  ],
+  "contacts": [
+    { "text": "Email", "url": "mailto:jiaxing.li@university.edu" },
+    { "text": "Google Scholar", "url": "https://scholar.google.com/citations?user=demo123" },
+    { "text": "GitHub", "url": "https://github.com/jiaxingli" },
+    { "text": "CV", "url": "https://example.org/jiaxing-li-cv.pdf" },
+    { "text": "LinkedIn", "url": "https://www.linkedin.com/in/jiaxing-li/" }
+  ]
+}

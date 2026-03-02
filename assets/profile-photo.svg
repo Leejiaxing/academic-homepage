@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Profile placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9d6cf"/>
+      <stop offset="100%" stop-color="#f0eee8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="220" r="90" fill="#b8b3a8"/>
+  <path d="M130 520c15-110 100-170 170-170s155 60 170 170" fill="#b8b3a8"/>
+  <text x="300" y="575" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#5a564d">Jiaxing Li</text>
+</svg>
